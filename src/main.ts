@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import { setupStore } from '@/store';
-import { setupRouter } from '@/router'
+import { setupRouter } from '@/router';
+import '@/router/generate-route';   //路由拦截
 
 import App from '@/App.vue'
 

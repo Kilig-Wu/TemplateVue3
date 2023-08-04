@@ -14,5 +14,10 @@ export const useUserStore = defineStore('app-user', {
         roles: [],
         token: undefined,
         refreshToken: undefined
-    })
+    }),
+    actions: {
+        async getUserInfo() {
+
+        }
+    }
 })

@@ -10,8 +10,7 @@
 │  ├─ main.ts ## 项目整体入口
 │  ├─ views ## 页面文件夹
 │  ├─ router ## 路由配置文件
-│  │  ├─ dynamic-routes.ts ## 动态路由文件夹，这里面配置的会同步生成菜单
-│  │  ├─ generate-route.ts ## 生成动态路由结构
+│  │  ├─ generate-route.ts ## 生成动态路由
 │  │  ├─ router-guard.ts ## 路由拦截
 │  │  └─ static-routes.ts ## 静态路由
 │  ├─ stores ## pinia配置文件夹
