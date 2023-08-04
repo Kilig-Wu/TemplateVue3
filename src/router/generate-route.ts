@@ -41,3 +41,8 @@ export const generateTreeRoutes = (menus: MenuData, parent) => {
         }
     });
 };
+
+//动态生成菜单
+export const generatorDynamicRouter = function() {
+
+}
