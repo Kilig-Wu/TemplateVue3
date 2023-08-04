@@ -1,6 +1,5 @@
-antdv-pro
+##
 ├─ public ## 静态资源文件夹
-├─ themes ## 主题文件夹
 ├─ types ## 类型声明文件夹
 ├─ src ## 主项目文件夹
 │  ├─ App.vue ## 组件入口
