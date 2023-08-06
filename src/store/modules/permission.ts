@@ -1,9 +1,9 @@
 import { defineStore } from 'pinia';
 
 interface PermissionState {
-    routers: []
+    routers: [];
     // 权限代码列表
-  permCodeList: string[] | number[];
+    permCodeList: string[] | number[];
 }
 
 export const usePermissionStore = defineStore('app-permission', {
@@ -13,10 +13,8 @@ export const usePermissionStore = defineStore('app-permission', {
     }),
     actions: {
         //动态生成路由
-        generateRoutes() {
-
-        }
+        generateRoutes() {}
     }
-})
+});
 
-export default usePermissionStore
+export default usePermissionStore;
